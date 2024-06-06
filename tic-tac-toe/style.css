@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     /* border: 1px solid red; */
+}
+body{
+     background: linear-gradient(to bottom, #0a0345, #6908c3);
+     height: 100vh;
+     margin: 0;
+     text-align: center;
+     color: white;
+}
+#heading{
+     margin-top: 1rem;
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     text-shadow: 0px 0px 20px rgba(11, 212, 243, 0.8);
+}
+.container{
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.game{
+     height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 1.2vmin;
+     background-color: #540465;
+     padding: 6px 0;
+     border-radius: 15px;
+     border: 7px solid;
+     border-image: linear-gradient(to bottom, #8A2BE2, #FF1493) 1;
+}
+.box{
+     height: 18vmin;
+     width: 18vmin;
+     border-radius: 1rem;
+     border: none;
+     box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+     font-size: 14vmin;
+     /* color: #d72019; */
+     background-color: rgb(3, 3, 42);
+     transition: 0.2s;
+}
+#reset-btn{
+     padding: 1rem;
+     font-size: 1.25rem;
+     background-color: #191913;
+     color: #fff;
+     border-radius: 0.8rem;
+     border: none;
+     background-color: #b207bb;
+}
+#new-btn{
+     padding: 1rem;
+     font-size: 1.25rem;
+     background-color: #191913;
+     color: #fff;
+     border-radius: 0.8rem;
+     background-color: #b207bb;
+     border: none;
+}
+#msg{
+     color: #ffffc7;
+     font-size: 8vmin;
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     text-shadow: 0px 0px 15px rgba(11, 212, 243, 0.8);
+}
+.msg-container{
+     height: 100vmin;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 4rem;
+}
+.hide{
+     display: none;
+}
+.zero{
+     color: palevioletred;
+     text-shadow: 0px 0px 30px rgba(178, 7, 7, 0.8); 
+}
+.ex{
+     color: skyblue;
+     text-shadow: 0px 0px 30px rgba(11, 212, 243, 0.8);
+}
